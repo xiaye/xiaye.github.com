@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+    body {
+      background-color: #eeeeee;
+      font-family: Comic Sans MS, arial, helvetica, sans-serif;
+    }
+
+    .container {
+      background-color: white;
+      width: 70%;
+      margin: 0 auto;
+    }
+
+    .main-title {
+      padding-top: 5px;
+      margin-left: 3%;
+    }
+
+    .text-item {
+      display: -webkit-box;
+      /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+      display: -moz-box;
+      /* 老版本语法: Firefox (buggy) */
+      display: -ms-flexbox;
+      /* 混合版本语法: IE 10 */
+      display: -webkit-flex;
+      /* Safari */
+      display: flex;
+      flex-direction: row;
+      -webkit-box-pack: space-around;
+      -moz-justify-content: space-around;
+      -webkit-justify-content: space-around;
+      justify-content: space-around;
+    }
+
+    .text-item > p {
+      width: 95%;
+    }
+
+    .image-text-item {
+      width: 100%;
+      height: auto;
+      display: -webkit-box;
+      /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+      display: -moz-box;
+      /* 老版本语法: Firefox (buggy) */
+      display: -ms-flexbox;
+      /* 混合版本语法: IE 10 */
+      display: -webkit-flex;
+      /* Safari */
+      display: flex;
+      flex-direction: row;
+      -webkit-box-pack: space-around;
+      -moz-justify-content: space-around;
+      -webkit-justify-content: space-around;
+      justify-content: space-around;
+    }
+
+    .item-image {
+      /* background-color: #00aa00; */
+      width: 40%;
+      height: auto;
+    }
+
+    .item-text {
+      /*background-color: #0000aa;*/
+      width: 40%;
+      height: auto;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .blank {
+      width: 100%;
+      height: 50px;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .double-item {
+      width: 100%;
+      height: auto;
+      display: -webkit-box;
+      /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+      display: -moz-box;
+      /* 老版本语法: Firefox (buggy) */
+      display: -ms-flexbox;
+      /* 混合版本语法: IE 10 */
+      display: -webkit-flex;
+      /* Safari */
+      display: flex;
+      flex-direction: row;
+      -webkit-box-pack: space-around;
+      -moz-justify-content: space-around;
+      -webkit-justify-content: space-around;
+      justify-content: space-around;
+    }
+
+    .item-single {
+      width: 30%;
+      height: auto;
+    }
+
+    .thribble-item {
+      width: 100%;
+      height: auto;
+      display: -webkit-box;
+      /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+      display: -moz-box;
+      /* 老版本语法: Firefox (buggy) */
+      display: -ms-flexbox;
+      /* 混合版本语法: IE 10 */
+      display: -webkit-flex;
+      /* Safari */
+      display: flex;
+      flex-direction: row;
+      -webkit-box-pack: space-around;
+      -moz-justify-content: space-around;
+      -webkit-justify-content: space-around;
+      justify-content: space-around;
+    }
+
+    .item-single-of-thribble {
+      width: 30%;
+      height: auto;
+    }
+
+    .footer-three-item {
+      width: 100%;
+      height: auto;
+      display: -webkit-box;
+      /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+      display: -moz-box;
+      /* 老版本语法: Firefox (buggy) */
+      display: -ms-flexbox;
+      /* 混合版本语法: IE 10 */
+      display: -webkit-flex;
+      /* Safari */
+      display: flex;
+      flex-direction: row;
+      -webkit-box-pack: space-around;
+      -moz-justify-content: space-around;
+      -webkit-justify-content: space-around;
+      justify-content: space-around;
+      font-size: 13px;
+      font-family: serif;
+    }
+
+    .title-in-p {
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="main-title">
+      <h2>
+        新番扫雷之不能错过的四月新番
+      </h2>
+    </div>
+
+    <div class="text-item">
+      <p>
+        4月和7月历来是强番林立，此次4月新番更是被誉为史上最强春番，有40多部新番≈上映，是不是有点看不过来了呢？没关系，小编带你先扫扫雷。
+      </p>
+    </div>
+    <div class="text-item">
+      <p>
+        有钱任性继续浪的
+        <span class="title-in-p">骨头社</span>4月的三部作品都令人翘首以待：
+      </p>
+    </div>
+    <div class="text-item">
+      <p>
+        《文豪野犬》
+      </p>
+    </div>
+    <div class="image-text-item">
+      <div class="item-image">
+        <img style="" src="img/wenhaoyequan.jpg" alt="" />
+      </div>
+      <div class="item-text">
+        <p>
+          五十岚卓哉继续搭档榎户洋司推出改编自同名漫画的TV动画《文豪野犬》，中岛敦，太宰治，江户川乱步等，这些以日本近现代文豪为原型的异能者在平行世界“横滨”的战斗即将登场。其各自拥有的异能也与各文豪的作品有关，江户川乱步拥有神一般的推理能力，太宰治的异能‘人间失格’来自其原型作家太宰治的代表作。最新公布的pv第二弹让原作粉丝大呼好看过瘾，五十岚彻底爬出少女坑指日可待。该番音乐继续由合作愉快的岩崎琢创作，想必叔在《野良神》里的混搭电音BGM已经给大家留下了深刻的印象，期待叔继续突破自我勇攀高峰(ΦωΦ)
+          。CV阵容超强 ：上村祐翔／宫野真守／神谷浩史／丰永利行，妈妈不要拦我，我要突破次元壁穿越到横滨！
+        </p>
+      </div>
+    </div>
+    <div class="blank">
+
+    </div>
+    <div class="image-text-item">
+      <div class="item-image">
+        <img style="" src="img/wenhaozuozhe.png" alt="" />
+      </div>
+      <div class="item-text">
+        <p>
+          值得一提的是，该动画原作推出的外传篇《绫辻行人VS.京极夏彦》直接取自现役作家绫辻行人和京极夏彦。在2月召开的发售纪念会上，绫辻行人和京极夏彦还亲自到场站台，绫辻行人和京极夏彦吐槽原作者朝雾卡夫卡说：我们都不认识你呐你还真敢写，作者说：我也不认识太宰治…
+          <br> （左起绫辻行人／作者本人／京极夏彦）
+        </p>
+      </div>
+    </div>
+    <div class="blank">
+
+    </div>
+
+    <div class="text-item">
+      <p>
+        《我的英雄学院》
+      </p>
+    </div>
+    <div class="image-text-item">
+      <div class="item-image">
+        <img style="" src="img/my_hero_school.jpg" alt="" />
+      </div>
+      <div class="item-text">
+        <p>
+          另一部改编自jump人气漫画的动画《我的英雄学院》将于4月开始在每周五下午放送，讲在一个80%的人类都有超能力的世界里一个毫无超能力的少年成长为英雄的故事。监督长崎健司（高达系）＋构成黑天洋介（高达系）＋人设马越嘉彦（虫师）这样的组合简直不能让人更满意好吗？原作者崛越耕平作为腰斩系代表之前在 jump上连载的两部作品都惨遭腰斩，而《我的英雄学院》则是努力＋友谊＝胜利的传统王道漫题材，面向jump少年向的读者的确很适合，不仅顺位上屡屡中彩，截止2月累计发行达到了370万。加之火影完结，死神烂尾，看过很多推荐都期待这部jump小台柱能顺利接过王道漫的大旗，才连载到80话的英雄学院任重而道远呐～
+          CV里山下大辉／三宅健太／冈本信彦等，三宅健太宰接受采访时称自己之前都是出演被英雄打败的人物，此次能够出演给英雄简直让人心跳加速，看来70后的叔也有一颗少年心。已经出了四弹pv，可以先睹为快。
+        </p>
+      </div>
+    </div>
+
+
+    <div class="text-item">
+      <p>
+        另一部由骨头社制作的是去年热播的原创动画《Concrete Revolutio 超人幻想第二季》，除了依旧沿用水岛精二vs会川升这对黄金搭档，虚渊也参与了剧本，期待他们搞出来的幺蛾子。都说bones逢三必暴死，希望4月这三部都能不负众望。
+      </p>
+    </div>
+
+    <div class="text-item">
+      <p>
+        <span class="title-in-p">studio deen</span> 4月推出 《在下坂本有有何贵干》和 《super love》 两部：
+      </p>
+    </div>
+    <div class="text-item">
+      <p>
+        《在下坂本，有何贵干》
+      </p>
+    </div>
+
+    <div class="image-text-item">
+      <div class="item-image">
+        <img style="" src="img/zaixiabanben.jpg" alt="" />
+      </div>
+      <div class="item-text">
+        <p>
+          《在下坂本，有何贵干》改编自佐野菜见原作的同名漫画，陆版翻译是《我叫坂本我最屌》也真是可以…讲一个三观正又高冷，行动华丽潇洒做事完美无缺，让女生喜欢男生嫉妒的新生坂本的搞校园笑故事。已于今年1月份完结的该漫画在去年animeanime的读者调查中获得了读者最希望动画化漫画的第一名。果然不负众望，高松信司监督配绿川光主役简直是完美梦幻组合。高松信司和藤田阳一已经完全不管银他妈了，阿松不仅玩脱了还顺手屠榜newtype男性角色，高松监制的坂本掉节操指数估计会直逼阿松。对于绿川光绝大多数人的印象估计都还停留在流川枫，此次出演的坂本一角一张面瘫脸做正经事，浑然不觉做搞笑事，看漫画不戴眼镜的坂本君和流川枫竟也有些神似，期待开播，新番必追！
+        </p>
+      </div>
+    </div>
+
+    <div class="text-item">
+      <p>
+        此外，世初的坑还没补完studio deen又开一坑，从4月起深夜档开播腐向动画《super love》，讲暖男与熊孩子的兄弟基情。不能把世初的坑补完吗？有生之年还能看到我宗律再登荧屏吗(○´･д･)ﾉ.此前出的drama版cv感人，森川智之／神谷浩史／小野大辅／润润分别出演海棠家四兄弟，腐女们可以去听听，绝对福利，只此一家。
+      </p>
+    </div>
+
+    <div class="text-item">
+      <p>
+        <span class="title-in-p">A1</span> 4月推出两部动画《逆转裁判》和《学战都市》第二季：
+      </p>
+    </div>
+
+    <div class="text-item">
+      <p>
+        《逆转裁判》
+      </p>
+    </div>
+
+    <div class="image-text-item">
+      <div class="item-image">
+        <img style="" src="img/nizhuan.jpg" alt="" />
+      </div>
+      <div class="item-text">
+        <p>
+          改编自著名法庭推理游戏的同名tv动画《逆转裁判》于4月起每周六黄金档放送，对于没有补过游戏的麻麻们而言是个补上这个国民向游戏的好机会。讲新手律师成步堂龙一为他的被害老板兼师傅的老牌律师讨回血债的故事。虽然是法庭推理题材，但该番制作人在接受采访时称希望大家能把它当作《HERO》来看。监督渡边步搭配人设福冈淳广，配乐是谁？和田薰！！距离叔上一次为动画配乐已经是遥远的2008年了(＃°Д°) ，看来以后叔的配音都可以加入有生之年系列了。虽说是国民向，但诸多论坛上对于该番的声优人设都有吐槽：“逆转式夸张演出带来的振奋和玩家自己找线索,列证据,噎着凶手这一互动过程是紧紧相连的.剥夺了最有趣的玩的部分,做成动画,一开始气场就输了一截。”
+          风评如此，但冲着和田薰的配乐也推荐看一看。
+        </p>
+      </div>
+    </div>
+
+    <div class="text-item">
+      <p>
+        另一部由A1制作的是《学战都市》第二季，但去年10月播出的第一部风评不太好，豆瓣评分只有5.7，所以还是不用浪费时间看了╮(๑•́ ₃•̀๑)╭
+      </p>
+    </div>
+
+    <div class="text-item">
+      <p>
+        <span class="title-in-p">Lay-duce</span>和
+        <span class="title-in-p">Brain’base</span>分别带来《辛巴达的冒险》和《ENDRIDE》：
+      </p>
+    </div>
+
+    <div class="double-item">
+      <div class="item-single">
+        <img src="img/xinbadamaoxian.jpg" alt="" />
+      </div>
+      <div class="item-single">
+        <img src="img/en.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="double-item">
+      <div class="item-single" style="width:40%;">
+        <p>
+          《辛巴达的冒险》是《魔奇少年》的外传漫画，讲冒险王辛巴达少年时期的故事。虽然原作《魔奇少年》的动画版毁誉参半，但Lay-duce早在14年就已经出了5集ova，加上宫尾佳和监督和岸本卓脚本的保驾护航，再看看华丽丽的cv表：小野大辅／杉田智和／石田彰／小西克幸／樱井孝宏，简直亮瞎我眼(*бωб*)，希望能在4月强番林立之下博得一众票粉。Ps：组长4月出演的还有影鳄第二季，画风清奇参见暗芝居，十分适合夏日深夜食用。
+        </p>
+      </div>
+      <div class="item-single" style="width:40%;">
+        <p>
+          Brain’base制作的《ENDRIDE》作为原创动画，讲一个地球少年误闯平行世界邂逅另一个为了向平行世界之王复仇的复仇少年，从此搭档历经冒险的故事。虽然是原创动画但制作团队强大，由在《四月是你的谎言》《无头骑士异闻录》等近年热门动画中出任分镜的后藤圭二监督，更是请来和月伸宏和荻原一至分任地球少年和复仇少年的角色原案，这也是这二位首次出任动画角色原案。小野贤章／增田俊树等出任cv,另同名手游也将于年内上架。
+        </p>
+      </div>
+    </div>
+
+    <div class="text-item">
+      <p>
+        由
+        <span class="title-in-p">Production I.G</span>和
+        <span class="title-in-p">diomedea</span>分别带来《Joker Game》和《迷家》：
+      </p>
+    </div>
+
+    <div class="double-item">
+      <div class="item-single">
+        <img src="img/joker.jpg" alt="" />
+      </div>
+      <div class="item-single">
+        <img src="img/mijia.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="double-item">
+      <div class="item-single" style="width:40%;">
+        <p>
+          Production I.G携《攻壳机动队新剧场版》部分主创制作的动画《Joker Game》也将于4月放送，该番根据同名推理小说改编，该小说去年也曾改编为同名电影放送。讲一个信奉“不准死／不准杀人／不准被杀”信条的间谍机构“D机关”，在其领头结成魔王的带领下，在东京／横滨／伦敦／上海等地展开里惊险刺激的谍战大戏。配乐是川井宪次大师,大家一般都比较熟悉宫崎骏久石让这对搭档，但川井宪次也是押井守的御用配乐，包括天朝好多电视剧纪录片，其实放的背景乐好多都是川井老师的，徐克之前上映的《神都龙王》也请到他为电影配乐。该番cv更是亮瞎眼到堪称四月最强cv：
+          堀内贤雄／木村良平／樱井孝宏／下野纮／梶裕贵／森川智之／福山润／细谷佳正／关智一／中井和哉，天哪别说了我追还不行么(╯°Д°)╯
+        </p>
+      </div>
+      <div class="item-single" style="width:40%;">
+        <p>
+          另外， diomedea 带来由水岛努和冈田麿里联袂制作的原创动画《迷家》，作为一部群像悬疑剧，讲述了30个少年来到一个封闭村庄随后发现无法脱身身旁疑团重重的故事。是不是有种 another+ 柯南的即视感。另外本番的配乐是衡山克，也是看点之一。然而最大的看点估计就是，30人的cv… 30人的群像剧，水岛努大大也是各种都敢尝试一下…我等佩服到五体投地。4月的群像剧还有TRIGGER带来的原创动画《kiznaiver》，冈妈是原作兼脚本，监督则擢拔TRIGGER的演出家小林宽。
+        </p>
+      </div>
+    </div>
+
+    <div class="text-item">
+      <p>
+        由
+        <span class="title-in-p">SILVER LINK.</span>和
+        <span class="title-in-p">project No.9</span>带来校园喜剧《田中君总是如此慵懒》和《线上游戏的老婆不可能是女生？》：
+      </p>
+    </div>
+
+
+    <div class="double-item">
+      <div class="item-single">
+        <img src="img/tianzhongjun.jpg" alt="" />
+      </div>
+      <div class="item-single">
+        <img src="img/xianshanglaopo.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="double-item">
+      <div class="item-single" style="width:40%;">
+        <p>
+          《田中君总是如此慵懒》改编自同名畅销漫画，讲一个懒到极致的蠢萌少年田中和人妻攻太田同学的日常趣事。SILVER LINK.此前制作过同为搞笑治愈系的《悠哉日常大王》，此次《田中君》的制作团队也多数来自《悠哉》班底。话说该番的原画师们应该暗自开心，毕竟田中君总是在睡觉待机中๑乛◡乛๑。
+        </p>
+      </div>
+      <div class="item-single" style="width:40%;">
+        <p>
+          《线上游戏的老婆不可能是女生》改编自电击文库同名轻小说，线上游戏里的“老婆”分不清游戏和网络世界，追到现实世界里要和骚年结婚，从此开始一男三女的故事。大胸，萝莉，游戏控，女仆向，这设定真是宅男必备。project No.9于1月推出的《少女们向荒野进发》播出后人设作画剧情都被吐槽老套落俗，不造亚子和猫姬能否为project No.9挽回一些颜面。
+        </p>
+      </div>
+    </div>
+
+    <div class="text-item">
+      <p>
+        4月同为女仆向的还有8bit制作的《少年女仆》，校园喜剧向的还有AXsiZ 和トムス・エンタテインメント分别制作的《任性High-Spec》和《爆音少女》等。
+      </p>
+    </div>
+
+    <div class="text-item">
+      <p>
+        除了上述新作以外，4月续作更是实力超强来势汹汹：
+      </p>
+    </div>
+
+    <div class="thribble-item">
+      <div class="item-single-of-thribble" style="width:29%;">
+        <img src="img/jojo.jpg" alt="" />
+      </div>
+      <div class="item-single-of-thribble" style="width:33%;">
+        <img src="img/chaoshikongyaosai.jpg" alt="" />
+      </div>
+      <div class="item-single-of-thribble" style="width:28%;">
+        <img src="img/huoxingyizhong.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="footer-three-item">
+      <span>
+        （ jojo奇妙冒险 不灭钻石 ）
+      </span>
+      <span>
+        （ 超时空要塞△ ）
+      </span>
+      <span>
+        （ 火星异种 第二季 ）
+      </span>
+    </div>
+
+    <div class="text-item">
+      <p>
+        由
+        <span class="title-in-p">david production</span>携原班人马带来《jojo奇妙冒险》第四部之不灭钻石篇，原作连载于1992-1995年，故事设定在埃及之战10年后的日本M县S市杜王町，cv也有所变动，东方仗助由羽多野设变更为小野友树／岸边露伴由神谷浩史变更为樱井孝宏。早在去年12月官网就推出长达2分30秒的pv，但pv中人设画风却没有前三部硬朗，如今一众卖腐卖cp的动漫届 jojo 这样实力肌肉实力男主可千万不要让已经五星预定的大家失望啊(ง •̀_•́)ง。
+      </p>
+    </div>
+    <div class="text-item">
+      <p>
+        另一部备受关注的续作是由
+        <span class="title-in-p">サテライト</span>带来的《超时空要塞△》。作为睽违多年的tv版，已经看过先行话的众多网友们表示，歌姬团体紧跟潮流化身五人偶像团，被誉为史上最后宫系列，去年的歌姬选拔从8000人中脱颖而出的18岁美少女美野里出任新歌姬，期待萌妹纸的日后发展。
+      </p>
+    </div>
+    <div class="text-item">
+      <p>
+        <span class="title-in-p">LIDENFILMS</span>联合
+        <span class="title-in-p">TYOアニメーションズ</span>推出《火星异种》第二季，制作人员大换血，难忘第一季里的回忆杀圣光杀蟑螂杀，但漫画后期中国人登场成反派角色，到时候在天朝会不会被禁播？此外，4月续作还有SHIN-EI动画制作的《怪盗joker3》，以及MAPPA和studio VOLN 联合制作的《潮与虎 》第三季。
+      </p>
+    </div>
+
+    <div class="blank">
+
+    </div>
+    <div class="text-item">
+      <p>
+        from: 清涵 （版权所有，不得转载）
+      </p>
+    </div>
+
+
+
+
+
+
+  </div>
+</body>
+
+</html>
